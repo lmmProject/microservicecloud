@@ -1,4 +1,4 @@
-package com.lmm.springcloud.controller;
+package com.lmm.springcloud;
 
 import com.lmm.springcloud.entities.Dept;
 import com.lmm.springcloud.service.DeptService;
