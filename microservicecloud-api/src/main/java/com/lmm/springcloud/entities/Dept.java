@@ -27,4 +27,8 @@ public class Dept implements Serializable {
     /* 来自哪个数据库，因为一个服务可以对应一个数据库，同一个信息被存储到不同数据库 */
     private String db_source;
 
+    public Dept(String dname) {
+        this.dname = dname;
+    }
+
 }
