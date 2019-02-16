@@ -29,3 +29,17 @@ spring:
       test-on-borrow: false
       # 指明是否在归还到池中前进行检验，注意: 设置为true后如果要生效,validationQuery参数必须设置为非空字符串
       test-on-return: false
+
+eureka:
+  client: # 客户端注册进eureka服务列表内
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+  instance:
+    instance-id: microservicecloud-dept8001
+    prefer-ip-address: true     #访问路径可以显示IP地址
+
+
+info:
+  app.name: lmm-microservicecloud
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
