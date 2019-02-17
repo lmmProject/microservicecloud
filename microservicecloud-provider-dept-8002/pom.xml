@@ -12,6 +12,11 @@
     <artifactId>microservicecloud-provider-dept-8002</artifactId>
 
     <dependencies>
+        <!-- hystrix -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-hystrix</artifactId>
+        </dependency>
         <!-- 将微服务的provider注册到eureka -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
